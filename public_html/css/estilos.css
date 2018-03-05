@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 5, 2018, 7:06:05 PM
+    Author     : 00140007
+*/
+#cabecera{
+    font-family:  Felix Titling;
+    font-size:  50px;
+    color: #E74C3C;
+    text-align: center;
+    
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Felix Titling;
+    color: white;
+    background: #943126;
+    padding: 15px;
+    border-radius: 20px;
+}
+#menú{
+    text-align: center; 
+}
+img{
+    border-radius: 20px;
+}
+#cuerpo{
+    text-align: center;
+    font-family: Felix Titling;
+    font-size: 24px;
+    
+}
+#pie{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    background: #EC7063;
+    color: white;
+    
+}
