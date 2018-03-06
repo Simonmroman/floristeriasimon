@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
        <div id="cabecera" >
@@ -25,6 +26,43 @@ and open the template in the editor.
             </ul>
         </div>
         <div id="formulario">
+            <h1> Escríbenos y te responderemos </h1>
+            <form>
+                <div>
+                <label for="Nombre"> Nombre: </label>
+                <input type="text" id="Nombre"/>
+                </div>
+                <div>
+                <label for="Apellidos"> Apellidos: </label>
+                <input type="text" id="Apellidos"/>
+                </div>
+                <div>
+                <label for="Teléfono"> Teléfono: </label>
+                <input type="text" id="Teléfono"/>
+                </div>
+                <div>
+                <label for="Correo"> eMail: </label>
+                <input type="emal" id="email"/>
+                </div>
+                <div>
+                <label for="Asunto"> Asunto: </label>
+                <select id="Asunto" name="Asunto">
+                    <option value="" selected="selected"> Elige una Opción </option>
+                    <option value="Información"> Solicitud de Información </option>
+                    <option value="Cotiza"> Solicitar Información </option>
+                    <option value="Reclamación"> Realizar una reclamación </option>
+                    <option value="Otros"> Otros</option>
+                </select>
+                </div>
+                <div>
+                <label for="Mensaje"> Mensaje: </label>
+                <textarea id="Mensaje" cols="80" row="10"></textarea>
+                </div>
+                <div class="Botón">
+                    <button type="submit"> Enviar </button>
+                </div>
+            </form>
+        </div>
             <div id="pie">
             Calle Principal #107, Villa Olga, Santiago De Los Caballeros, República Dominicana. </br> 
             Tel. 809-456-2587 y 849-789-1236 <p>

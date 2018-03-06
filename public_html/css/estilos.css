@@ -46,3 +46,30 @@ img{
     color: white;
     
 }
+form{
+    margin: 0 auto;
+    width: 700px;
+    background: #E6B0AA;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: Center;
+}
+form div{
+    margin-bottom: 8px;
+    
+}
+label{
+    font-family: Felix Titling;
+    width: 100px;
+    text-align: right;
+    display: inline;
+}
+input{
+    width: 200px;
+}
+textArea{
+    width: 400px;
+    vertical-align: middle;
+}
